@@ -1,0 +1,44 @@
+Inlinee style
+Internal style
+External style
+
+style="background:blue"
+
+Selectors
+
+element
+class .
+id #
+universal *
+
+attribute <button disabled></button>
+[disabled]{
+    color:red;
+}
+
+Different rules have different priorites
+
+Csacading:Multiple rules appy to same element
+
+Specivity:Resolves conflict from multiple rules
+
+Inline styles
+#id
+.class,:pseudo-class and [attribute selectors]
+<Tag> and ::pseudo-element selectors
+
+
+Inheritance:Inherit style of parent element
+
+font-family: inherit;
+
+Combinators allow to combine multiple selectors
+More specific rule higher Specivity
+
+Adjacent Sibling div+p Directly after div Same parent
+General Sibling div ~p Same parent second come after not directly necessary
+Child div>p Second element direct child of 1st
+Descendent div p Direct child not necessary
+
+Selcetors,Properties,Values
+Values: predefiend options , colors, length size and numbers,functions

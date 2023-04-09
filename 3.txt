@@ -1,0 +1,68 @@
+The box model 
+
+Content
+Padding
+Border
+Margin
+
+Margin Collapsing:Bigger margin wins
+
+1. Adjacent Siblings
+
+In this case, the first element might have a margin of 10px  (on all sides let's say) and the second one has 5px  (or 20px  - the values don't matter).
+
+CSS will collapse the margins and only add the bigger one between the elements. So if we got margins of 10px  and 5px , a 10px  margin would be added between the elements?
+
+2. A parent with children that have a margin
+
+To be precise, the first and/ or last or the only child has to have margins (top and/ or bottom). In that case, the parent elements margin will collapse with the child element(s)' margins. Again, the bigger margin wins and will be applied to the parent element.
+
+If the parent element has padding, inline content (other than the child elements) or a border, this behavior should not occur, the child margin will instead be added to the content of the wrapping parent element.
+
+3. An empty element with margins
+
+This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into one single margin. Again, the bigger one wins.
+
+
+
+Shorthand Property:Combine value of multiple property to single one
+
+margin: top&bottom left&right
+
+ 
+width:50% will take 50% widdth of surrounding container
+
+height tricky
+
+height and width targets Content
+
+box-sizing:content-box
+border-box (basically use this)
+
+
+display property 
+block 
+inline (cant reset margin top and bottom)
+none
+inline-block
+
+Block-level elements are rendered as a block and hence take up all the available horizontal space. You can set margin-top and margin-bottom and two block-level elements will render in two different lines.
+
+Some examples are: <div> , <section> , <article> , <nav>  but also <h1> , <h2>  etc and <p> .
+
+Inline elements on the other hand only take up the space they require to fit their content in. Hence two inline-elements will fit into the same line (as long as the combined content doesn't take up the entire space in which case a line break would be added).
+
+a:hover pseudo class
+
+psuedo class : style of special state of element
+pseudo element :: style of sepcific part of element
+
+/* p::first-letter{
+    color: red;
+    font-size: 300px;
+} */
+
+.main-nav__item  a::after{
+    content: "{link}";
+    color: #ff1b68;
+}
