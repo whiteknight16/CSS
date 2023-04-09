@@ -1,0 +1,15 @@
+class="c1 c2"   specivity applies from css
+class="active"   a.active   Ek line me dekhega
+
+
+Class selectors vs Id selectors
+
+!important 
+div{
+    color:red !important
+}
+Overwrites specitivity and all other selectors (Generally don't use it)
+
+:not(to-exclude){
+    color:
+}

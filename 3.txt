@@ -66,3 +66,14 @@ pseudo element :: style of sepcific part of element
     content: "{link}";
     color: #ff1b68;
 }
+
+
+Important property:
+color:
+background-color:
+display:
+padding:
+border:
+margin:
+width:
+height:
