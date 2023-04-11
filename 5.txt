@@ -1,0 +1,18 @@
+text=align
+vertical-align
+
+box-shadow: 2px 2px 2px 2px;
+
+rgb()
+rgba()
+
+:focus
+outline
+
+box-shadow: offset-x offset-y (blur-radius and/or spread-radius=optional) color;
+
+float:
+
+width: 80%;
+    margin: auto;
+    text-align: center;
