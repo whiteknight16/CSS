@@ -1,0 +1,27 @@
+Positioning by position property
+
+static: default go with the flow
+absolute:context is defined by 2 cases closest ancestor if previous have else html
+relative:apni position ke relative jayega
+fixed:Take element out of flow,becomes inline block, top 100 makes top se 100 bhagega neeche Relates to viewport, doesn;t depend on block or inline
+sticky:combination of relative and fixed distance between element and viewport content ke end pe jaane pe khatam(acha hai )
+
+
+viewport visible part of web page
+
+z index require position other than static
+
+if z inde same that order of occurence matter
+
+
+overflow:hidden
+will pass on to html selector if apply to body (default behaviour)
+isliye agar body pe lagoge to to html pe bhi laga ke lagana
+
+position:sticky(new browser support not perfect)
+top:
+left:
+
+
+Stacking context:
+

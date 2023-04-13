@@ -16,3 +16,7 @@ float:
 width: 80%;
     margin: auto;
     text-align: center;
+
+.clear-fix{
+    clear: both;
+}

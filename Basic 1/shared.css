@@ -14,17 +14,20 @@ body {
 
 /* Navbar */
 
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    position: fixed;
+    z-index: 1;
+}
+
 .section-title {
     color: #2ddf5c;
     font-family: inherit;
     text-align: center;
 }
 
-.main-header {
-    width: 100%;
-    background-color: #2ddf5c;
-    padding: 8px 16px;
-}
 
 .main-header>div {
     display: inline-block;
